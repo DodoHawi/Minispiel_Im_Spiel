@@ -1,0 +1,92 @@
+﻿Spiel;Genre;Minispiel;Optional;Einfluss Minispiel Belohnung;Wiederholung;Abbruchbarkeit;Unterbricht Hauptspielfluss;Räumliche Einschränlung;Einsatz;Timer ;Cooldown;Retry
+Minecraft;Sandbox;Angeln;Ja;Ja;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Nein
+The Witcher 3;Action-Adventure;Gwint;Ja;Ja;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+The Witcher 3;Action-Adventure;Pferderennen;Ja;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+The Witcher 3;Action-Adventure;Faustkampf;Ja;Ja;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Poker;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Domino;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Blackjack;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Five Finger Fillet;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Angeln;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Silent Hill 2;Survival Horror;Coin Puzzle;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Zahlenkombnation;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Armband Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;X-Ray Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Bücher Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Generator Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Gewichte Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Galgen Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Spiegel Rätsel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Spieluhr Rätsel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Genshin Impact;Open World RPG;Angeln;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja;Nein
+Genshin Impact;Open World RPG;Genius Invokation TCG;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Genshin Impact;Open World RPG;Repertoire of Myriad Melodies;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Wizard Skittles;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Quidditch;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Quidditch Variation;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Gobstones;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Jack Stone;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Snake Pit;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Potions;Ja;Ja;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Zauberduelle;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Exploding Snap;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Patience Game;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Bavarian Rules Snap;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Mafia II;Action-Adventure;Lockpicking;Ja;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Lockpicking;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Umkehrer/Gleichrichter TS-27 (Stromzufuhr unterbrechen);Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Morse Code;Nein;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Mafia III;Action-Adventure;Lockpulling;Ja;Ja;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Lockpicking;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Hacking;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja;Ja
+Fallout 4;Open World RPG;Pipfall;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Fallout 4;Open World RPG;Red Menace;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Atomic Command;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Zeta Invaders;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Grognak the Barbarian and the Ruby Ruins;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;Schatten Puzzle;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;"""7"" Puzzle";Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;Happy Birthday Puzzle;Ja;Ja;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Statue Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Electric Door Panel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Zahlenkombnation;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Tragbarer Tresor;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Generator Switch Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Sherry Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Verteilerkatusche Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Animal Crossing New Horizons;Simulation;Fischen;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Animal Crossing New Horizons;Simulation;Gruppengymnastik;Ja;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Labyrinth Puzzle;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Musik Box Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Film Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Schleusentor Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Piano Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Princess Quest;Nein;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Balloon World;Nein;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Monty Golf AR-Arcade;Nein;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Shooting Range;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Symbol Schloss Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Crystal Marble Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Lake Door Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Hexagon Puzzle;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Stained Glass Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Strom Puzzel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Palia;Simulation;Angeln;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Palia;Simulation;Kochen;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Nein
+Hogwarts Legacy;Open World RPG;Accio Duell;Ja;Ja;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Duelling Club;Ja;Ja;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Broom Trials;Ja;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Battle Arena;Ja;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Alohomora / Lockpicking;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Ballons zerplatzen;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Merlins Prüfungen;Ja;Nein;Nein;Ja ;Nein;Nein;Nein;Nein;Nein;Ja
+God of War III;Action-Adventure;Pandoras Musik Puzzle;Nein;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 3 (Remake);Survival Horror;Schienen Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 3 (Remake);Survival Horror;Lab Puzzle;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Altar Rätsel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Zahlenkombnation;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Geheimkiste Rätsel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Waage Rätsel;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Data Diver Upgrade;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Power Generator;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Ja;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Moon.exe;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
