@@ -1,9 +1,9 @@
 ﻿Spiel;Genre ;Minispiel;"Veränderung der Schwierigkeit"
-Minecraft;Sandbox;Angeln;Kontext: Leichter 
+Minecraft;Sandbox;Angeln;Kontext: Leichter
 The Witcher 3;Action-Adventure;Gwint;Konstant
 The Witcher 3;Action-Adventure;Pferderennen;Konstant
 The Witcher 3;Action-Adventure;Faustkampf;Konstant
-RDR 2;Action-Adventure;Poker;Kontext: Leichter 
+RDR 2;Action-Adventure;Poker;Kontext: Leichter
 RDR 2;Action-Adventure;Domino;Konstant
 RDR 2;Action-Adventure;Blackjack;Konstant
 RDR 2;Action-Adventure;Five Finger Fillet;Konstant
@@ -18,7 +18,7 @@ Silent Hill 2;Survival Horror;Gewichte Puzzle;Konstant
 Silent Hill 2;Survival Horror;Galgen Puzzle;Konstant
 Silent Hill 2;Survival Horror;Spiegel Rätsel;Konstant
 Silent Hill 2;Survival Horror;Spieluhr Rätsel;Konstant
-Genshin Impact;Open World RPG;Angeln;Kontext: Leichter 
+Genshin Impact;Open World RPG;Angeln;Kontext: Leichter
 Genshin Impact;Open World RPG;Genius Invokation TCG;Konstant
 Genshin Impact;Open World RPG;Repertoire of Myriad Melodies;Minispiel: Schwieriger
 Harry Potter und der Halbblut-Prinz;Action-Adventure;Wizard Skittles;Konstant
@@ -75,7 +75,7 @@ Palia;Simulation;Angeln;Kontext: Leichter
 Palia;Simulation;Kochen;Minispiel: Schwieriger
 Hogwarts Legacy;Open World RPG;Accio Duell;Minispiel: Schwieriger
 Hogwarts Legacy;Open World RPG;Duelling Club;Konstant
-Hogwarts Legacy;Open World RPG;Broom Trials;Kontant
+Hogwarts Legacy;Open World RPG;Broom Trials;Konstant
 Hogwarts Legacy;Open World RPG;Battle Arena;Konstant
 Hogwarts Legacy;Open World RPG;Alohomora / Lockpicking;Konstant
 Hogwarts Legacy;Open World RPG;Ballons zerplatzen;Konstant

@@ -1,0 +1,166 @@
+﻿Spiel;Genre;Minispiel;Jahr;Einfluss Minispiel Belohnung;Wiederholung;Abbruchbarkeit;Unterbricht Hauptspielfluss;Räumliche Einschränlung;Einsatz;Timer ;Cooldown;Retry
+Minecraft;Sandbox;Angeln;2011;Ja;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Nein
+The Witcher 3;Action-Adventure;Gwint;2015;Ja;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+The Witcher 3;Action-Adventure;Pferderennen;2015;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+The Witcher 3;Action-Adventure;Faustkampf;2015;Ja;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Poker;2018;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Domino;2018;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;BlackJack;2018;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Five Finger Fillet;2018;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Nein;Ja
+RDR 2;Action-Adventure;Angeln;2018;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Silent Hill 2;Survival Horror;Coin Puzzle;2024;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Zahlenkombnation;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Armband Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;X-Ray Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Bücher Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Generator Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Gewichte Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Galgen Puzzle;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Spiegel Rätsel;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill 2;Survival Horror;Spieluhr Rätsel;2024;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Genshin Impact;Open World RPG;Angeln;2020;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja;Nein
+Genshin Impact;Open World RPG;Genius Invokation TCG;2020;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Genshin Impact;Open World RPG;Repertoire of Myriad Melodies;2020;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Wizard Skittles;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Quidditch;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Quidditch Variation;2005;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Gobstones;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Jack Stone;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Snake Pit;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Potions;2005;Ja;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Zauberduelle;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Exploding Snap;2005;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Patience Game;2005;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Harry Potter und der Halbblut-Prinz;Action-Adventure;Bavarian Rules Snap;2005;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+Mafia II;Action-Adventure;Lockpicking;2010;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Lockpicking;2015;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Umkehrer/Gleichrichter TS-27 (Stromzufuhr unterbrechen);2015;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+The Order: 1886;Action-Adventure;Morse Code;2015;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Mafia III;Action-Adventure;Lockpulling;2016;Ja;Nein;Ja;Nein;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Lockpicking;2015;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Hacking;2015;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja;Ja
+Fallout 4;Open World RPG;Pipfall;2015;Nein;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Fallout 4;Open World RPG;Red Menace;2015;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Atomic Command;2015;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Zeta Invaders;2015;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Fallout 4;Open World RPG;Grognak the Barbarian and the Ruby Ruins;2015;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;Schatten Puzzle;2017;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;"""7"" Puzzle";2017;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil Biohazard;Survival Horror;Happy Birthday Puzzle;2017;Ja;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Statue Puzzle;2019;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Electric Door Panel;2019;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Zahlenkombnation;2019;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Tragbarer Tresor;2019;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Generator Switch Puzzle;2019;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Sherry Puzzle;2019;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 2 (Remake);Survival Horror;Verteilerkatusche Puzzle;2019;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Animal Crossing New Horizons;Simulation;Fischen;2020;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Animal Crossing New Horizons;Simulation;Gruppengymnastik;2020;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Labyrinth Puzzle;2021;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Musik Box Puzzle;2021;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Film Puzzle;2021;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Schleusentor Puzzle;2021;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil Village;Survival Horror;Piano Puzzle;2021;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Princess Quest;2021;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Balloon World;2021;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Security Breach;Survival Horror;Monty Golf AR-Arcade;2021;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Shooting Range;2023;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Symbol Schloss Puzzle;2023;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Crystal Marble Puzzle;2023;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Lake Door Puzzle;2023;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Hexagon Puzzle;2023;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Stained Glass Puzzle;2023;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 4 (Remake);Survival Horror;Strom Puzzel;2023;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Palia;Simulation;Angeln;2023;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Nein
+Palia;Simulation;Kochen;2023;Ja;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Nein
+Hogwarts Legacy;Open World RPG;Accio Duell;2023;Ja;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Duelling Club;2023;Ja;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Broom Trials;2023;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Battle Arena;2023;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Alohomora / Lockpicking;2023;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Ballons zerplatzen;2023;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Hogwarts Legacy;Open World RPG;Merlins Prüfungen;2023;Nein;Nein;Ja ;Nein;Nein;Nein;Nein;Nein;Ja
+God of War III;Action-Adventure;Pandoras Musik Puzzle;2010;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 3 (Remake);Survival Horror;Schienen Puzzle;2020;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Resident Evil 3 (Remake);Survival Horror;Lab Puzzle;2020;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Altar Rätsel;2025;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Zahlenkombnation;2025;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Geheimkiste Rätsel;2025;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Silent Hill f;Survival Horror;Waage Rätsel;2025;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Data Diver Upgrade;2025;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Power Generator;2025;Nein;Nein;Ja;Ja;Ja;Nein;Ja;Nein;Ja
+Five Nights at Freddy's: Secret of the Mimic;Survival Horror;Moon.exe;2025;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Nein;Ja
+half life 2;First-Person Shooter;gravity gun puzzle;2004;Nein;Ja;Ja;Nein;Ja;Nein;Nein;Nein;Ja
+metal gear solid 3;Stealth;guy savage;2004;Nein;Nein;Ja;Ja;Ja;Nein;Ja;Nein;Nein
+TLOZ Minish Cap;Action-Adventure;simons simulations;2005;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+TLOZ Minish Cap;Action-Adventure;treasure chest game;2005;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+TLOZ Minish Cap;Action-Adventure;cucco wrangling;2005;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Ja;Nein
+FF VII;JRPG;arith climb;2006;Ja;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Nein
+FF VII;JRPG;reactor door;2006;Ja;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;squats;2006;Ja;Nein;Nein;Ja;Ja;Nein;Ja;Nein;Nein
+FF VII;JRPG;shinra building jump;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;stealth;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;bike;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;strategy fort condor;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+FF VII;JRPG;cpr;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;parade;2006;Nein;Nein;Nein;Ja;Ja;Nein;Ja;Nein;Nein
+FF VII;JRPG;fall;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Nein
+FF VII;JRPG;chocobo racing;2006;Nein;Ja;Nein;Ja;Ja;Nein;Ja;Nein;Nein
+FF VII;JRPG;arm wrestling;2006;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein
+FF VII;JRPG;basketball;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+FF VII;JRPG;mog house;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+FF VII;JRPG;wonder catcher;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+FF VII;JRPG;3d battler;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+FF VII;JRPG;shooting coaster;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+FF VII;JRPG;clock puzzle;2006;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;excavation;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+FF VII;JRPG;snowboarding;2006;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Nein
+FF VII;JRPG;glacier plattforming;2006;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;temperatur;2006;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;whirlwind maze ;2006;Nein;Ja;Ja;Nein;Ja;Nein;Nein;Nein;Ja
+FF VII;JRPG;submarine game;2006;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Ja;Ja
+bioshock;First-Person Shooter;  hacking;2007;Nein;Ja;Ja;Ja;Nein;Nein;Ja;Nein;Nein
+mass effect 1;Action-RPG;bypass;2007;Nein;Nein;Nein;Ja;Nein;Nein;Ja;Nein;Nein
+mass effect 1;Action-RPG;override;2007;Nein;Ja;Nein;Ja;Nein;Nein;Nein;Nein;Nein
+mass effect 1;Action-RPG;pressure puzzle;2007;Nein;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Ja
+mass effect 1;Action-RPG;cure puzzle;2007;Nein;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Ja
+Persona 4;JRPG;fishing;2008;Nein;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein
+persona 3 portable;JRPG;shuffle time;2010;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Nein
+bioshock 2;First-Person Shooter;hacking;2012;Nein;Ja;Ja;Nein;Nein;Ja;Nein;Nein;Nein
+skyrim;Open World RPG;lockpicking;2011;Nein;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+witcher 2;Action-RPG;am wrestling;2012;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+witcher 2;Action-RPG;fistfights;2012;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+witcher 2;Action-RPG;dice;2012;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Nein
+bowsers inside Story Progress;RPG;bowser muscles;2009;Nein;Nein;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+bowsers inside Story Progress;RPG;carrot eating;2009;Nein;Nein;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+bowsers inside Story Progress;RPG;sneezing;2009;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+bowsers inside Story Progress;RPG;adrenaline;2009;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+bowsers inside Story Progress;RPG;chest station;2009;Nein;Nein;Nein;Ja;Ja;Nein;Nein;Nein;Ja
+bowsers inside Story Progress;RPG;statue push;2009;Nein;Nein;Nein;Ja;Ja;Nein;Ja;Nein;Ja
+mass effect 2;Action-RPG;bypass;2010;Nein;Nein;Ja;Ja;Ja;Nein;Ja;Nein;Nein
+mass effect 2;Action-RPG;planet scan;2010;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+bioshock infinite;First-Person Shooter;shooting gallery;2013;Nein;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Ja
+TLOZ a link between worlds;Action-Adventure;cucco ranch;2013;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja
+TLOZ a link between worlds;Action-Adventure;fortunes choice;2013;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+TLOZ a link between worlds;Action-Adventure;hyrule hotfoot;2013;Nein;Ja;Nein;Nein;Ja;Ja;Ja;Nein;Ja
+TLOZ a link between worlds;Action-Adventure;octoball derby;2013;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja
+Nier automata;Action-RPG;hacking;2017;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Ja
+Nier automata;Action-RPG;shoot em up;2017;Nein;Nein;Nein;Ja;Nein;Nein;Nein;Nein;Ja
+fire emblem three houses;Action-RPG;fishing;2019;Nein;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein
+fire emblem three houses;Tactical RPG;gardening;2019;Nein;Ja;Ja;Nein;Ja;Ja;Nein;Nein;Ja
+Persona 5 royal;RPG;batting cage;2020;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Ja;Nein
+Persona 5 royal;RPG;crossword puzzles;2020;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Ja;Nein
+Persona 5 royal;RPG;darts;2020;Ja;Ja;Nein;Ja;Ja;Ja;Nein;Ja;Nein
+Persona 5 royal;RPG;fishing;2020;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Ja;Nein
+Persona 5 royal;RPG;quiz show;2020;Nein;Ja;Nein;Ja;Ja;Nein;Nein;Ja;Nein
+Persona 5 royal;RPG;video games;2020;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Ja;Nein
+super mario 3d world;Jump-'n'-Run;captain toads adventure;2021;Ja;Ja;Ja;Ja;Ja;Nein;Ja;Nein;Ja
+chained echoes;JRPG;fishing;2022;Nein;Ja;Ja;Ja;Ja;Ja;Nein;Nein;Ja
+chained echoes;JRPG;rock paper scissor;2022;Nein;Ja;Ja;Ja;Ja;Nein;Nein;Nein;Ja
+chained echoes;JRPG;dapple devour;2022;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja
+chained echoes;JRPG;tumultuous turtle touchdown;2022;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+paper mario the thousand year door;RPG;matching game;2024;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+paper mario the thousand year door;RPG;plane game;2024;Nein;Ja;Nein;Ja;Ja;Ja;Nein;Nein;Ja
+paper mario the thousand year door;RPG;paper game;2024;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja
+paper mario the thousand year door;RPG;tube game;2024;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja
+paper mario the thousand year door;RPG;boat game;2024;Nein;Ja;Nein;Ja;Ja;Ja;Ja;Nein;Ja

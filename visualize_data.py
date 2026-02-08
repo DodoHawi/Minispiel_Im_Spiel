@@ -7,7 +7,7 @@ from plotly.subplots import make_subplots
 from sklearn.preprocessing import MultiLabelBinarizer  
 
 
-df = pd.read_csv('minispiele_raw_clean.csv', sep=';')
+df = pd.read_csv('minispiele_raw_clean2.csv', sep=';')
 
 # Spalten mit nur Ja/Nein/NaN
 binary_columns = [
@@ -22,7 +22,7 @@ for col in binary_columns:
     
 # Wide to long format
 df_long = df_bin.melt(
-    id_vars=["Spiel", "Genre", "Minispiel"],
+    id_vars=["Spiel", "Genre", "Minispiel", "Jahr"],
     value_vars=binary_columns,
     var_name="feature",
     value_name="present"
@@ -50,6 +50,13 @@ feature_summary_melted = feature_summary.melt(
 # Vergleich nach Genre
 genre_share = (
     df_long.groupby(["Genre", "feature"])["present"]
+    .mean()
+    .reset_index(name="Anteil")
+)
+
+#Vergleich nach Jahr
+year_share = (
+    df_long.groupby(["Jahr", "feature"])["present"]
     .mean()
     .reset_index(name="Anteil")
 )
@@ -83,12 +90,23 @@ fig3 = px.bar(
     facet_col="feature",
     facet_col_wrap=3,
     labels={"Anteil": "Anteil 'Ja'", "Genre": "Genre", "feature": "Kategorie"},
-    title="Anteil 'Ja' pro Kategorie und Genre (Facettenansicht)"
+    title="Anteil 'Ja' pro Kategorie und Genre"
+)
+
+fig_year = px.line(
+    year_share,
+    x="Jahr",
+    y="Anteil", 
+    facet_col="feature",
+    facet_col_wrap=2,
+    labels={"Anteil": "Anteil 'Ja'", "Jahr": "Jahr", "feature": "Kategorie"},
+    title="Anteil 'Ja' pro Kategorie und Jahr"
 )
 
 #fig1.show()
 #fig2.show()
 #fig3.show()
+fig_year.show()
 
 # --- Komplexität-Plot ---
 # Neue CSV einlesen
@@ -116,6 +134,51 @@ fig_komp_count.update_layout(
         title=dict(text = "Komplexität")))
 
 #fig_komp_count.show()
+
+#----------------------------------------------------------------------------------------------------
+# Komplexität nach Genre: Gruppieren und Plotten
+# ----------------------------------------------------------------------------------------------------
+
+# Anzahl pro Genre × Komplexität
+komp_by_genre = (
+    df_komp
+    .groupby(["Genre", "Komplexität"])
+    .size()
+    .reset_index(name="count")
+)
+
+# Anteile innerhalb jedes Genres
+komp_by_genre["Anteil"] = (
+    komp_by_genre["count"]
+    / komp_by_genre.groupby("Genre")["count"].transform("sum")
+)
+
+
+fig_komp_genre = px.bar(
+    komp_by_genre,
+    x="Genre",
+    y="Anteil",
+    color="Komplexität",
+    title="Komplexität der Minispiele nach Genre",
+    category_orders={
+        "Komplexität": ["Gering", "Mittel", "Hoch"]
+    },
+    color_discrete_map={
+        "Gering": "#87CEFA",
+        "Mittel": "#FFD700",
+        "Hoch": "#FF6A6A"
+    }
+)
+
+fig_komp_genre.update_yaxes(tickformat=".0%")
+fig_komp_genre.update_xaxes(tickangle=45)
+fig_komp_genre.update_layout(
+    legend_title_text="Komplexität",
+    font=dict(size=22)
+)
+
+#fig_komp_genre.show()
+
 
 # ---------------------------------------------------------------------------------------------------
 # --- Auftreten-Plot ---
@@ -147,6 +210,51 @@ fig_auf_count.update_layout(
 
 #fig_auf_count.show()
 
+#----------------------------------------------------------------------------------------------------
+# Auftreten nach Genre
+# ----------------------------------------------------------------------------------------------------
+
+# Anzahl pro Genre × Auftreten
+auf_by_genre = (
+    df_auf
+    .groupby(["Genre", "Auftreten"])
+    .size()
+    .reset_index(name="count")
+)
+
+# Anteile innerhalb jedes Genres
+auf_by_genre["Anteil"] = (
+    auf_by_genre["count"]
+    / auf_by_genre.groupby("Genre")["count"].transform("sum")
+)
+
+
+fig_auf_genre = px.bar(
+    auf_by_genre,
+    x="Genre",
+    y="Anteil",
+    color="Auftreten",
+    title="Auftreten der Minispiele nach Genre",
+    category_orders={
+        "Auftreten": ["Frei", "Einmalig", "Selten", "Häufig"]
+    },
+    color_discrete_map={
+        "Frei": "#87CEFA",
+        "Einmalig": "#FFD700",
+        "Selten": "#FF6A6A",
+        "Häufig": "#8B4513"
+    }
+)
+
+fig_auf_genre.update_yaxes(tickformat=".0%")
+fig_auf_genre.update_xaxes(tickangle=45)
+fig_auf_genre.update_layout(
+    legend_title_text="Auftreten",
+    font=dict(size=22)
+)
+
+#fig_auf_genre.show()
+
 # ---------------------------------------------------------------------------------------------------
 # --- UI-Transformation-Plot ---
 # ---------------------------------------------------------------------------------------------------
@@ -177,6 +285,51 @@ fig_ui_count.update_layout(
         title=dict(text = "UI-Transformationsgrad")))
 
 #fig_ui_count.show()
+
+#----------------------------------------------------------------------------------------------------
+# UI-Transformation nach Genre: Gruppieren und Plotten
+# ----------------------------------------------------------------------------------------------------
+
+# Anzahl pro Genre × Komplexität
+ui_by_genre = (
+    df_ui
+    .groupby(["Genre", "UI-Transformation"])
+    .size()
+    .reset_index(name="count")
+)
+
+# Anteile innerhalb jedes Genres
+ui_by_genre["Anteil"] = (
+    ui_by_genre["count"]
+    / ui_by_genre.groupby("Genre")["count"].transform("sum")
+)
+
+
+fig_ui_genre = px.bar(
+    ui_by_genre,
+    x="Genre",
+    y="Anteil",
+    color="UI-Transformation",
+    title="UI-Transformation der Minispiele nach Genre",
+    category_orders={
+        "UI-Transformation": ["Keine", "Leicht", "Mittel", "Stark"]
+    },
+    color_discrete_map={
+        "Keine": "#87CEFA",
+        "Leicht": "#FFD700",
+        "Mittel": "#FF6A6A",
+        "Stark": "#8B4513"
+    }
+)
+
+fig_ui_genre.update_yaxes(tickformat=".0%")
+fig_ui_genre.update_xaxes(tickangle=45)
+fig_ui_genre.update_layout(
+    legend_title_text="UI-Transformation",
+    font=dict(size=22)
+)
+
+#fig_ui_genre.show()
 
 # ---------------------------------------------------------------------------------------------------
 # --- Veränderung der Schwierigkeit-Plot ---
@@ -216,12 +369,58 @@ fig_ver_count.update_layout(
     legend=dict(
         title=dict(text = "Veränderung der Schwierigkeit")))
 
-fig_ver_count.show()
+#fig_ver_count.show()
+
+#----------------------------------------------------------------------------------------------------
+# Veränderung der Schwierigkeit nach Genre: Gruppieren und Plotten
+# ----------------------------------------------------------------------------------------------------
+
+# Anzahl pro Genre × Komplexität
+ver_by_genre = (
+    df_ver
+    .groupby(["Genre", "Veränderung der Schwierigkeit"])
+    .size()
+    .reset_index(name="count")
+)
+
+# Anteile innerhalb jedes Genres
+ver_by_genre["Anteil"] = (
+    ver_by_genre["count"]
+    / ver_by_genre.groupby("Genre")["count"].transform("sum")
+)
+
+
+fig_ver_genre = px.bar(
+    ver_by_genre,
+    x="Genre",
+    y="Anteil",
+    color="Veränderung der Schwierigkeit",
+    title="Veränderung der Schwierigkeit der Minispiele nach Genre",
+    category_orders={
+        "Veränderung der Schwierigkeit": ["Konstant", "Kontext: Leichter", "Kontext: Schwieriger", "Minispiel: Leichter", "Minispiel: Schwieriger"]
+    },
+    color_discrete_map={
+        "Konstant": "#87CEFA",
+        "Kontext: Leichter": "#FF00F7",
+        "Kontext: Schwieriger": "#FF6A6A",
+        "Minispiel: Leichter": "#8B4513",
+        "Minispiel: Schwieriger": "#420EFF"
+    }
+)
+
+fig_ver_genre.update_yaxes(tickformat=".0%")
+fig_ver_genre.update_xaxes(tickangle=45)
+fig_ver_genre.update_layout(
+    legend_title_text="Veränderung der Schwierigkeit",
+    font=dict(size=22)
+)
+
+#fig_ver_genre.show()
 
 # ---------------------------------------------------------------------------------------------------
 # --- Optionalität ---
 # ---------------------------------------------------------------------------------------------------
-df_opt = pd.read_csv('minispiele_optional_clean.csv', sep=';')
+df_opt = pd.read_csv('minispiele_optional_clean2.csv', sep=';')
 
 # Whitespace in Spaltennamen entfernen
 df_opt.columns = df_opt.columns.str.strip()
@@ -253,6 +452,50 @@ fig_opt_count.update_layout(
         title=dict(text = "Optional")))
 
 #fig_opt_count.show()
+
+#----------------------------------------------------------------------------------------------------
+# Optionalität nach Genre: Gruppieren und Plotten
+# ----------------------------------------------------------------------------------------------------
+
+# Anzahl pro Genre × Optionalität
+opt_by_genre = (
+    df_opt
+    .groupby(["Genre", "Optional"])
+    .size()
+    .reset_index(name="count")
+)
+
+# Anteile innerhalb jedes Genres
+opt_by_genre["Anteil"] = (
+    opt_by_genre["count"]
+    / opt_by_genre.groupby("Genre")["count"].transform("sum")
+)
+
+
+fig_opt_genre = px.bar(
+    opt_by_genre,
+    x="Genre",
+    y="Anteil",
+    color="Optional",
+    title="Optionalität der Minispiele nach Genre",
+    category_orders={
+        "Optional": ["Ja", "Einmalig", "Nein"]
+    },
+    color_discrete_map={
+        "Ja": "#87CEFA",
+        "Einmalig": "#FFD700",
+        "Nein": "#FF6A6A"
+    }
+)
+
+fig_opt_genre.update_yaxes(tickformat=".0%")
+fig_opt_genre.update_xaxes(tickangle=45)
+fig_opt_genre.update_layout(
+    legend_title_text="Optionalität",
+    font=dict(size=22)
+)
+
+#fig_opt_genre.show()
 
 # ---------------------------------------------------------------------------------------------------
 # --- Anzeigen aller Subplots in einem Plot ---
@@ -320,7 +563,7 @@ add_sub_legend(fig_grid, x_center=0.18, y_base=0.27, items=opt_items)
 # ---------------------------------------------------------------------------------------------------
 # --- Belohnungen ---
 # ---------------------------------------------------------------------------------------------------
-df_bel =pd.read_csv('minispiele_belohnung_clean4.csv', sep=';')
+df_bel =pd.read_csv('minispiele_belohnung_clean5.csv', sep=';')
 
 df_bel["Belohnungen_list"] = (
     df_bel["Belohnungen"]
@@ -353,7 +596,7 @@ fig_belohnung = px.bar(
     color_discrete_sequence=['#87CEFA']
 )   
 
-fig_belohnung.update_layout(font=dict(size=25))
+#fig_belohnung.update_layout(font=dict(size=25))
 
 #fig_belohnung.show()
 
@@ -395,15 +638,15 @@ fig_belohnung_genre = px.density_heatmap(
 
 fig_belohnung_genre.update_xaxes(tickangle=45)
 fig_belohnung_genre.update_coloraxes(colorbar_tickformat=".0%", colorbar_title="Anteil der Minispiele")
-fig_belohnung_genre.update_layout(font=dict(size=25))
+#fig_belohnung_genre.update_layout(font=dict(size=25))
 
-fig_belohnung_genre.show()
+#fig_belohnung_genre.show()
 
 
 # ---------------------------------------------------------------------------------------------------
 # --- Geforderte Skills ---
 # ---------------------------------------------------------------------------------------------------
-def_skills = pd.read_csv('minispiele_skills_clean.csv', sep=';')
+def_skills = pd.read_csv('minispiele_skills_clean2.csv', sep=';')
 
 def_skills["Skills_list"] = (
     def_skills["Geforderte Skills"]
@@ -438,11 +681,11 @@ fig_skills = px.bar(
 )   
 
 fig_skills.update_layout(font=dict(size=25))
-fig_skills.show()
+#fig_skills.show()
 
 
 # ---------------------------------------------------------------------------------------------------
-# --- Belohnungen - Vergleich der Genres: Heatmap ---
+# --- Skills - Vergleich der Genres: Heatmap ---
 # ---------------------------------------------------------------------------------------------------
 
 skills_genre = (
@@ -480,4 +723,4 @@ fig_skills_genre.update_xaxes(tickangle=45)
 fig_skills_genre.update_coloraxes(colorbar_tickformat=".0%", colorbar_title="Anteil der Minispiele")
 fig_skills_genre.update_layout(font=dict(size=25))
 
-fig_skills_genre.show()
+#fig_skills_genre.show()
