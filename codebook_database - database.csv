@@ -1,0 +1,297 @@
+Spielname,Genre,Minispiel,Optionalität,UI - Transformation,Belohnungen,Einfluss Minispiel - Belohnung auf Hauptspiel,Auftreten,Wiederholung,Retry,Komplexität,Veränderung der Schwierigkeit,Einsatz,Geforderte(r) Skill(s),Abbruchbarkeit,Unterbricht Hauptspielfluss,Räumliche Einschränkung,Timer,Cooldown
+Animal Crossing New Horizons,Simulation,Fischen,ja,keine,"consumable, Verkäufliche/eintauschbare Items",ja,frei,nein,nein,gering,konstant,nein,"motorik, timing",ja,ja,nein,nein,nein
+Animal Crossing New Horizons,Simulation,Gruppengymnastik,ja,leicht,"Verkäufliche/eintauschbare Items, collectibles",nein,frei,ja,ja,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Batman Arkham Knight,"Action, Open World",Remote Hacking Device,nein,mittel,"storyfortschritt, collectibles",nein,häufig,nein,ja,mittel,minispiel_schwieriger,nein,"logik, geschicklichkeit",nein,ja,nein,ja,nein
+Bioshock,"Ego-Shooter, Action, Atmosphärisch",Hacking,ja,stark,"spielwährung, ressourcen",ja,häufig,ja,nein,mittel,kontext_situativ,nein,logik,ja,ja,nein,ja,nein
+Bioshock Infinite,"Action, Ego-Shooter",Shooting Gallery,ja,keine,spielwährung,ja,selten,ja,ja,gering,konstant,nein,präzision,ja,ja,ja,ja,nein
+Bioshock 2,"Action, Ego-Shooter",Hacking,ja,mittel,gameplay-effekt,ja,häufig,ja,nein,gering,kontext_situativ,ja,timing,ja,nein,nein,nein,nein
+Chained Echoes,"Rollenspiel, Pixel-Art, JRPG",Fishing,ja,stark,ressourcen,ja,häufig,ja,ja,mittel,minispiel_leichter,ja,"timing,strategie",ja,ja,ja,nein,nein
+Chained Echoes,"Rollenspiel, Pixel-Art, JRPG",Rock Paper Scissor,ja,keine,spielwährung,ja,einmalig,ja,ja,gering,konstant,nein,"glück, strategie",ja,ja,ja,nein,nein
+Chained Echoes,"Rollenspiel, Pixel-Art, JRPG",Dapple Devour,ja,leicht,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,"timing,",nein,ja,ja,ja,nein
+Chained Echoes,"Rollenspiel, Pixel-Art, JRPG",Tumultuous Turtle Touchdown,ja,leicht,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,"glück, strategie",nein,ja,ja,nein,nein
+Cyberpunk,"Cyberpunk, Open World, Rollenspiel",Hacking,nein,stark,"spielwährung, storyfortschritt",ja,häufig,ja,nein,mittel,minispiel_schwieriger,nein,"timing, strategie, logik",ja,ja,nein,ja,nein
+Cyberpunk,"Cyberpunk, Open World, Rollenspiel",Trauma Drama,ja,stark,Verkäufliche/eintauschbare Items,ja,häufig,ja,nein,gering,konstant,nein,motorik,ja,ja,ja,nein,nein
+Cyberpunk,"Cyberpunk, Open World, Rollenspiel",Roach Race,ja,stark,Verkäufliche/eintauschbare Items,ja,häufig,ja,nein,gering,konstant,nein,"timing, reaktionsgeschwindigkeit",ja,ja,ja,nein,nein
+Cyberpunk,"Cyberpunk, Open World, Rollenspiel",Arasaka Tower 3D,ja,stark,Verkäufliche/eintauschbare Items,ja,häufig,ja,nein,gering,konstant,ja,motorik,ja,ja,ja,nein,nein
+Fallout 4,Open World RPG,Lockpicking,ja,stark,"xp, Verkäufliche/eintauschbare Items",ja,häufig,nein,ja,gering,konstant,nein,motorik,ja,ja,nein,nein,nein
+Fallout 4,Open World RPG,Hacking,ja,stark,Verkäufliche/eintauschbare Items,ja,häufig,nein,ja,gering,konstant,nein,logik,ja,ja,nein,nein,ja
+Fallout 4,Open World RPG,Pipfall,ja,stark,keine,nein,einmalig,ja,ja,mittel,konstant,nein,"motorik, timing, strategie",ja,ja,nein,ja,nein
+Fallout 4,Open World RPG,Red Menace,ja,stark,keine,nein,einmalig,ja,ja,gering,konstant,nein,"motorik, timing, strategie",ja,ja,nein,nein,nein
+Fallout 4,Open World RPG,Atomic Command,ja,stark,keine,nein,einmalig,ja,ja,gering,konstant,nein,motorik,ja,ja,nein,nein,nein
+Fallout 4,Open World RPG,Zeta Invaders,ja,stark,keine,nein,einmalig,ja,ja,gering,konstant,nein,motorik,ja,ja,nein,nein,nein
+Fallout 4,Open World RPG,Grognak the Barbarian and the Ruby Ruins,ja,stark,keine,nein,einmalig,ja,ja,hoch,konstant,nein,strategie,ja,ja,nein,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Arith Climb,ja,keine,"storyfortschritt, gameplay-effekt",ja,einmalig,nein,nein,gering,konstant,nein,glück,nein,nein,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Reactor Door,nein,keine,storyfortschritt,ja,einmalig,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Squats,nein,keine,Verkäufliche/eintauschbare Items,ja,einmalig,nein,nein,gering,konstant,nein,timing,nein,ja,ja,ja,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Shinra Building Jump,nein,keine,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Stealth,nein,keine,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Bike,nein,stark,storyfortschritt,nein,einmalig,nein,ja,hoch,konstant,nein,"strategie, motorik",nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Strategy fort Condor,nein,stark,ressourcen,ja,einmalig,ja,nein,hoch,kontext_leichter,ja,strategie,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",CPR,nein,leicht,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,keine,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Parade,nein,leicht,ressourcen,ja,einmalig,nein,nein,hoch,konstant,nein,timing,nein,ja,ja,ja,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Fall,ja,mittel,ressourcen,ja,einmalig,nein,nein,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Chocobo Racing,einmalig,stark,"ressourcen, storyfortschritt",ja,selten,ja,nein,mittel,kontext_situativ,nein,motorik,nein,ja,ja,ja,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Arm Wrestling,ja,keine,spielwährung,ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Basketball,ja,keine,spielwährung,ja,einmalig,ja,nein,gering,konstant,ja,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Mog House,ja,leicht,spielwährung,ja,einmalig,ja,nein,gering,konstant,ja,keine,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Wonder Catcher,ja,keine,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,glück,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",3D Battler,ja,keine,spielwährung,ja,einmalig,ja,ja,mittel,konstant,ja,"strategie, glück",nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Shooting Coaster,ja,stark,spielwährung,ja,einmalig,ja,ja,mittel,konstant,ja,motorik,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Clock Puzzle,nein,leicht,ressourcen,ja,einmalig,ja,ja,hoch,konstant,nein,strategie,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Excavation,einmalig,leicht,"spielwährung, ressourcen, storyfortschritt",ja,einmalig,ja,nein,mittel,konstant,ja,glück,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Snowboarding,ja,leicht,keine,nein,selten,ja,nein,mittel,konstant,nein,motorik,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Glacier Plattforming,ja,leicht,keine,nein,einmalig,ja,ja,gering,konstant,nein,strategie,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Temperatur,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Whirlwind Maze,nein,keine,storyfortschritt,nein,selten,ja,ja,gering,konstant,nein,timing,ja,nein,ja,nein,nein
+Final Fantasy VII,"Abenteuer, Rollenspiel",Submarine Game,einmalig,stark,storyfortschritt,nein,selten,ja,ja,mittel,konstant,ja,strategie,nein,ja,ja,nein,ja
+Fire Emblem three Houses,"Action, RPG, Strategie",Tea Party,ja,stark,upgrades,ja,häufig,ja,nein,mittel,konstant,ja,logik,nein,ja,ja,nein,ja
+Fire Emblem three Houses,"Action, RPG, Strategie",Fishing Pond,ja,leicht,ressourcen,ja,häufig,ja,nein,gering,minispiel_schwieriger,ja,"timing, mashing",ja,ja,ja,nein,nein
+Five Nights at Freddy's: Secret of the Mimic,Survival Horror,Data Diver Upgrade,nein,stark,storyfortschritt,nein,häufig,nein,ja,gering,konstant,nein,"logik, timing",ja,ja,nein,nein,nein
+Five Nights at Freddy's: Secret of the Mimic,Survival Horror,Power Generator,nein,keine,storyfortschritt,nein,häufig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,ja,nein
+Five Nights at Freddy's: Secret of the Mimic,Survival Horror,Moon.exe,ja,stark,alternatives ende,ja,frei,ja,ja,gering,konstant,nein,logik,ja,ja,nein,nein,nein
+Five Nights at Freddy's: Security Breach,Survival Horror,Princess Quest,nein,stark,alternatives ende,nein,selten,ja,ja,mittel,konstant,nein,motorik,nein,ja,ja,nein,nein
+Five Nights at Freddy's: Security Breach,Survival Horror,Balloon World,nein,stark,keine,nein,einmalig,ja,ja,gering,konstant,nein,"motorik, timing",nein,ja,ja,nein,nein
+Five Nights at Freddy's: Security Breach,Survival Horror,Monty Golf AR-Arcade,nein,stark,keine,nein,einmalig,ja,ja,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Genshin Impact,Open World RPG,Angeln,ja,leicht,consumable,ja,frei,nein,nein,gering,kontext_leichter,nein,motorik,ja,ja,nein,nein,ja
+Genshin Impact,Open World RPG,Genius Invokation TCG,ja,stark,"xp, spielwährung, Verkäufliche/eintauschbare Items",ja,häufig,ja,ja,hoch,konstant,nein,"strategie, logik",ja,ja,nein,nein,nein
+Genshin Impact,Open World RPG,Repertoire of Myriad Melodies,ja,mittel,spielwährung,ja,frei,ja,ja,mittel,minispiel_schwieriger,nein,"timing, motorik, multitasking",ja,ja,nein,ja,nein
+God of War III,Action-Adventure,Pandoras Musik Puzzle,nein,leicht,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,"motorik, timing",nein,ja,ja,nein,nein
+Golden Sun,RPG,Happy Wheels,ja,stark,spielwährung,ja,einmalig,ja,nein,gering,konstant,ja,keine,nein,ja,ja,nein,nein
+Grand Theft Auto V,"Action, Open World",Dart,nein,leicht,storyfortschritt,nein,selten,ja,ja,gering,konstant,nein,"timing, geschicklichkeit",ja,ja,nein,nein,nein
+Grand Theft Auto V,"Action, Open World",Triathlon,nein,leicht,"storyfortschritt, upgrades",ja,selten,ja,ja,mittel,kontext_leichter,nein,strategie,ja_bereich,ja,nein,ja,nein
+Grand Theft Auto V,"Action, Open World",Golf,nein,mittel,"storyfortschritt, upgrades",ja,einmalig,ja,ja,mittel,kontext_leichter,ja,"strategie,timing",ja_bereich,ja,ja,nein,nein
+Grand Theft Auto V,"Action, Open World",Schießstand,nein,leicht,"storyfortschritt, upgrades",ja,selten,ja,ja,mittel,kontext_leichter,ja,"präzision, geschicklichkeit",ja,ja,nein,ja,nein
+Grand Theft Auto V,"Action, Open World",Tennis,nein,leicht,"storyfortschritt, upgrades",ja,häufig,ja,ja,mittel,kontext_leichter,nein,"timing, präzision, geschicklichkeit",ja,ja,nein,nein,nein
+Grand Theft Auto V,"Action, Open World",Straßenrennen,nein,leicht,"storyfortschritt, upgrades",ja,selten,ja,ja,gering,kontext_leichter,ja,"geschicklichkeit, präzision",ja_bereich,ja,nein,ja,nein
+Grand Theft Auto V,"Action, Open World",Seerennen,nein,leicht,"storyfortschritt, upgrades",ja,selten,ja,ja,gering,kontext_leichter,nein,"geschicklichkeit, präzision",ja_bereich,ja,nein,ja,nein
+Grand Theft Auto V,"Action, Open World",Flugschule,nein,leicht,"storyfortschritt, upgrades",ja,selten,ja,ja,mittel,kontext_leichter,nein,"geschicklichkeit, präzision, timing",ja_bereich,ja,nein,ja,nein
+Grand Theft Auto V,"Action, Open World",Fallschirmspringen,nein,leicht,"storyfortschritt, spielwährung, upgrades",ja,häufig,ja,ja,mittel,kontext_leichter,nein,"geschicklichkeit,präzision,timing",ja_bereich,ja,nein,nein,nein
+Grand Theft Auto V,"Action, Open World",Jagd,ja,leicht,"spielwährung, upgrades",ja,einmalig,ja,ja,gering,kontext_leichter,nein,"geschicklichkeit, präzision",ja,ja,ja,nein,nein
+Grand Theft Auto V,"Action, Open World",Stuntflugzeug Zeitrennen,ja,leicht,"storyfortschritt, upgrades",ja,einmalig,ja,ja,mittel,kontext_leichter,nein,"geschicklichkeit, präzision",ja_bereich,ja,ja,ja,nein
+Grand Theft Auto V,"Action, Open World",Off-Road Rennen,nein,leicht,"storyfortschritt, collectibles, upgrades",ja,häufig,ja,ja,gering,kontext_leichter,nein,"geschicklichkeit, timing",ja_bereich,ja,nein,ja,nein
+Hades,"Action-Rouguelike, Roguelite",Angeln,ja,leicht,Verkäufliche/eintauschbare Items,ja,häufig,ja,nein,gering,konstant,nein,timing,ja,ja,ja,nein,ja
+Half Life 2,"Action, Ego-Shooter",Gravity Gun Puzzle,einmalig,keine,"ressourcen, storyfortschritt",nein,häufig,ja,ja,gering,konstant,nein,"logik, strategie, geschicklichkeit",ja_bereich,nein,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Wizard Skittles,einmalig,stark,"collectibles, Verkäufliche/eintauschbare Items",nein,häufig,ja,ja,gering,konstant,nein,"motorik, strategie",nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Quidditch,einmalig,stark,collectibles,nein,häufig,ja,ja,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Quidditch Variation,einmalig,stark,collectibles,nein,häufig,ja,ja,gering,konstant,nein,motorik,nein,ja,ja,ja,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Gobstones,ja,stark,"collectibles, Verkäufliche/eintauschbare Items",nein,häufig,ja,ja,gering,konstant,nein,"motorik, strategie",nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Jack Stone,ja,stark,"collectibles, Verkäufliche/eintauschbare Items",nein,selten,ja,ja,gering,konstant,nein,"motorik, strategie",nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Snake Pit,ja,stark,"collectibles, Verkäufliche/eintauschbare Items",nein,selten,ja,ja,gering,konstant,nein,"motorik, strategie",nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Potions,einmalig,stark,consumable,ja,häufig,ja,ja,gering,konstant,nein,"motorik, timing",nein,ja,ja,ja,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Zauberduelle,ja,leicht,"collectibles, consumable",nein,häufig,ja,ja,mittel,minispiel_schwieriger,nein,strategie,nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Exploding Snap,ja,stark,collectibles,nein,selten,ja,ja,gering,konstant,nein,timing,nein,ja,ja,ja,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Patience Game,ja,stark,collectibles,nein,häufig,ja,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Harry Potter und der Halbblut-Prinz,Action-Adventure,Bavarian Rules Snap,ja,stark,collectibles,nein,häufig,ja,ja,gering,konstant,nein,timing,nein,ja,ja,ja,nein
+Hogwarts Legacy,Open World RPG,Accio Duell,ja,leicht,xp,ja,häufig,nein,ja,mittel,minispiel_schwieriger,nein,"motorik, timing, strategie",nein,ja,ja,nein,nein
+Hogwarts Legacy,Open World RPG,Duelling Club,einmalig,leicht,"xp, storyfortschritt",ja,selten,nein,ja,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Hogwarts Legacy,Open World RPG,Broom Trials,einmalig,leicht,"xp, Verkäufliche/eintauschbare Items, storyfortschritt",ja,selten,ja,ja,mittel,konstant,nein,motorik,ja_bereich,ja,ja,nein,nein
+Hogwarts Legacy,Open World RPG,Battle Arena,ja,leicht,xp,ja,selten,ja,ja,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Hogwarts Legacy,Open World RPG,Alohomora / Lockpicking,nein,stark,"storyfortschritt, Verkäufliche/eintauschbare Items",ja,häufig,nein,ja,gering,konstant,nein,motorik,ja,ja,nein,nein,nein
+Hogwarts Legacy,Open World RPG,Ballons zerplatzen,ja,keine,"xp, Verkäufliche/eintauschbare Items",ja,häufig,nein,ja,gering,konstant,nein,motorik,ja_bereich,ja,nein,nein,nein
+Hogwarts Legacy,Open World RPG,Merlins Prüfungen,ja,keine,"xp, upgrades",nein,häufig,nein,ja,gering,konstant,nein,motorik,ja_bereich,nein,nein,nein,nein
+Mafia II,Action-Adventure,Lockpicking,einmalig,leicht,"Verkäufliche/eintauschbare Items",nein,frei,nein,ja,gering,minispiel_schwieriger,nein,timing,ja,nein,nein,nein,nein
+Mafia III,Action-Adventure,Lockpulling,ja,leicht,Verkäufliche/eintauschbare Items,ja,häufig,nein,ja,gering,konstant,nein,"motorik, timing",ja,nein,nein,nein,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Bowser Muscles,nein,leicht,storyfortschritt,nein,selten,nein,ja,gering,minispiel_schwieriger,ja,timing,nein,ja,ja,nein,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Carrot Eating,nein,stark,storyfortschritt,nein,einmalig,nein,ja,mittel,konstant,nein,aufmerksamkeit,nein,ja,ja,ja,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Sneezing,nein,leicht,storyfortschritt,nein,selten,ja,ja,mittel,minispiel_schwieriger,nein,timing,nein,ja,ja,nein,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Adrenaline,nein,stark,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Chest Station,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,timing,nein,ja,ja,nein,nein
+Mario & Luigi Bowsers Inside Story,"Action, RPG",Statue Push,nein,leicht,storyfortschritt,nein,selten,nein,ja,mittel,konstant,nein,timing,nein,ja,ja,ja,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Fassspiel,einmalig,stark,storyfortschritt,ja,einmalig,ja,ja,hoch,konstant,nein,"strategie, logik",nein,ja,ja,ja,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Grenzsprung,einmalig,leicht,storyfortschritt,ja,einmalig,ja,ja,gering,minispiel_schwieriger,nein,"timing, motorik",nein,ja,ja,nein,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Chukola Sprung,ja,leicht,storyfortschritt,ja,einmalig,ja,nein,gering,konstant,nein,"motorik, timing",nein,ja,ja,ja,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Mysteriöse Minenwagen,einmalig,mittel,storyfortschritt,ja,einmalig,ja,ja,mittel,minispiel_schwieriger,nein,timing,nein,nein,ja,nein,ja
+Mario & Luigi Superstar Saga,"Action, RPG",Splart,ja,keine,storyfortschritt,ja,einmalig,ja,nein,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Surfing Minispiel,ja,mittel,storyfortschritt,ja,einmalig,ja,nein,mittel,konstant,nein,"motorik, timing",ja,ja,ja,ja,nein
+Mario & Luigi Superstar Saga,"Action, RPG",Sternmustache Smash,nein,stark,storyfortschritt,ja,einmalig,ja,nein,mittel,konstant,nein,"strategie, motorik",nein,ja,ja,ja,nein
+Marvel Spider Man,Action,Leitungsprojekte,einmalig,stark,"xp, Verkäufliche/eintauschbare Items",ja,häufig,ja,nein,mittel,kontext_schwieriger,nein,"logik, strategie, motorik",ja,ja,ja,nein,ja
+Marvel Spider Man,Action,Spektrograph,einmalig,stark,"xp, Verkäufliche/eintauschbare Items",ja,häufig,ja,nein,mittel,kontext_schwieriger,nein,logik,ja,ja,ja,nein,ja
+Mass Effect 1,"Rollenspiel, Action, Sci-Fi",Bypass,ja,stark,"spielwährung, ressourcen",ja,häufig,nein,nein,gering,konstant,nein,"logik, timing",nein,ja,nein,ja,nein
+Mass Effect 1,"Rollenspiel, Action, Sci-Fi",Override,ja,mittel,"spielwährung, ressourcen, storyfortschritt",ja,häufig,ja,nein,gering,minispiel_situativ,nein,timing,nein,ja,nein,nein,nein
+Mass Effect 1,"Rollenspiel, Action, Sci-Fi",Pressure Puzzle,nein,keine,storyfortschritt,nein,einmalig,nein,ja,mittel,konstant,nein,logik,nein,nein,ja,nein,nein
+Mass Effect 1,"Rollenspiel, Action, Sci-Fi",Cure Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,mittel,konstant,nein,logik,nein,nein,ja,nein,nein
+Mass Effect 2,"Rollenspiel, Action, Sci-Fi",Bypass,ja,stark,"spielwährung, ressourcen",ja,häufig,nein,nein,gering,konstant,nein,logik,ja,ja,ja,ja,nein
+Mass Effect 2,"Rollenspiel, Action, Sci-Fi",Planet Scan,ja,stark,ressourcen,ja,häufig,nein,ja,gering,konstant,ja,keine,ja,ja,ja,nein,nein
+Metal Gear Solid 3,"Action, Action-Abenteuer",Guy Savage,einmalig,stark,keine,nein,einmalig,nein,nein,gering,konstant,nein,keine,ja,ja,ja,ja,nein
+Minecraft,"Sandbox, Survival",Angeln,ja,keine,Verkäufliche/eintauschbare Items,ja,frei,ja,ja,gering,kontext_leichter,nein,timing,ja,nein,nein,nein,nein
+Nier Automata,"Hack and Slash, Rollenspiel",Hacking,nein,stark,gameplay-effekt,ja,häufig,nein,ja,gering,konstant,nein,geschicklichkeit,nein,ja,nein,nein,nein
+Nier Automata,"Hack and Slash, Rollenspiel",Shoot Em Up,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,geschicklichkeit,nein,ja,nein,nein,nein
+Palia,Simulation,Angeln,ja,leicht,"consumable, Verkäufliche/eintauschbare Items",ja,frei,nein,nein,gering,konstant,nein,"motorik, timing",ja,ja,nein,nein,nein
+Palia,Simulation,Kochen,einmalig,mittel,consumable,ja,frei,ja,nein,gering,minispiel_schwieriger,nein,"motorik, timing",ja,ja,nein,ja,nein
+Paper Mario,RPG,Jump attack,ja,leicht,spielwährung,ja,einmalig,ja,nein,gering,konstant,ja,glück,ja,ja,ja,nein,nein
+Paper Mario,RPG,Smash Attack,ja,mittel,spielwährung,ja,einmalig,ja,nein,mittel,konstant,ja,"mashing, logik",ja,ja,ja,ja,nein
+Paper Mario the Thousand Year Door,RPG,Matching Game,ja,leicht,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,"glück, timing",nein,ja,ja,nein,nein
+Paper Mario the Thousand Year Door,RPG,Plane Game,ja,leicht,spielwährung,ja,einmalig,ja,ja,mittel,konstant,ja,geschicklichkeit,nein,ja,ja,nein,nein
+Paper Mario the Thousand Year Door,RPG,Paper Game,ja,leicht,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,geschicklichkeit,nein,ja,ja,ja,nein
+Paper Mario the Thousand Year Door,RPG,Tube Game,ja,mittel,spielwährung,ja,einmalig,ja,ja,gering,konstant,ja,geschicklichkeit,nein,ja,ja,ja,nein
+Paper Mario the Thousand Year Door,RPG,Boat Game,ja,mittel,spielwährung,ja,einmalig,ja,ja,mittel,konstant,ja,geschicklichkeit,nein,ja,ja,ja,nein
+Paper Mario 2 Remake,RPG,Slots,ja,mittel,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,timing,nein,ja,ja,nein,nein
+Paper Mario 2 Remake,RPG,Plane Game,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Paper Mario 2 Remake,RPG,Paper Game,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Paper Mario 2 Remake,RPG,Tube Game,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Paper Mario 2 Remake,RPG,Boat Game,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,nein,nein
+Persona 3 Portable,"Rollenspiel, Komplexe Handlung, JRPG",Shuffle Time,nein,stark,Verkäufliche/eintauschbare Items,ja,häufig,nein,nein,gering,konstant,nein,glück,nein,ja,nein,nein,nein
+Persona 4,"Abenteuer, JRPG",Fishing,ja,leicht,ressourcen,ja,einmalig,ja,nein,gering,minispiel_situativ,ja,timing,ja,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Batting Cage,ja,mittel,"ressourcen, upgrades",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,timing,nein,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Crossword Puzzles,ja,stark,upgrades,ja,einmalig,ja,nein,gering,kontext_situativ,ja,wissen,nein,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Darts,ja,stark,"upgrades, xp",ja,einmalig,ja,nein,mittel,kontext_situativ,ja,timing,nein,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Fishing,ja,mittel,"upgrades, spielwährung",ja,einmalig,ja,nein,mittel,kontext_schwieriger,ja,"timing, strategie",nein,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Quiz Show,ja,leicht,upgrades,ja,einmalig,ja,nein,gering,konstant,nein,wissen,nein,ja,ja,nein,ja
+Persona 5 Royal,"JRPG, Komplexe Handlung, JRPG",Video Games,ja,mittel,upgrades,ja,einmalig,ja,nein,gering,kontext_schwieriger,ja,"timing, glück",nein,ja,ja,ja,ja
+Red Dead Redemption 2,Action-Adventure,Poker,ja,mittel,spielwährung,ja,häufig,ja,ja,mittel,kontext_leichter,ja,"strategie, logik",ja,ja,nein,nein,nein
+Red Dead Redemption 2,Action-Adventure,Domino,ja,mittel,spielwährung,ja,selten,ja,ja,mittel,konstant,ja,"strategie, logik",ja,ja,nein,nein,nein
+Red Dead Redemption 2,Action-Adventure,Blackjack,ja,mittel,spielwährung,ja,selten,ja,ja,mittel,konstant,ja,"strategie, logik",ja,ja,nein,nein,nein
+Red Dead Redemption 2,Action-Adventure,Five Finger Fillet,ja,mittel,spielwährung,ja,selten,ja,ja,gering,konstant,ja,"motorik, gedächtnis",ja,ja,nein,nein,nein
+Red Dead Redemption 2,Action-Adventure,Angeln,einmalig,leicht,consumable,ja,frei,ja,nein,gering,konstant,nein,motorik,ja,ja,nein,nein,nein
+Resident Evil Biohazard,Survival Horror,Schatten Puzzle,nein,mittel,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,logik,ja,ja,nein,nein,nein
+Resident Evil Biohazard,Survival Horror,"""7"" Puzzle",ja,mittel,upgrades,ja,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,nein,nein,nein
+Resident Evil Biohazard,Survival Horror,Happy Birthday Puzzle,ja,keine,storyfortschritt,ja,einmalig,nein,ja,mittel,konstant,nein,logik,nein,ja,nein,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Shooting Range,ja,leicht,upgrades,ja,häufig,ja,ja,mittel,konstant,nein,"motorik, timing",ja,ja,nein,ja,nein
+Resident Evil 4 (Remake),Survival Horror,Symbol Schloss Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Crystal Marble Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Lake Door Puzzle,nein,stark,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Hexagon Puzzle,ja,stark,Verkäufliche/eintauschbare Items,ja,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Stained Glass Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 4 (Remake),Survival Horror,Strom Puzzel,nein,stark,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 3 (Remake),Survival Horror,Schienen Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 3 (Remake),Survival Horror,Lab Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Statue Puzzle,nein,mittel,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,motorik,ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Electric Door Panel,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Zahlenkombnation,ja,stark,"Verkäufliche/eintauschbare Items, upgrades",ja,häufig,nein,ja,gering,konstant,nein,"motorik, logik",ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Tragbarer Tresor,ja,stark,upgrades,ja,selten,nein,ja,gering,konstant,nein,gedächtnis,ja,ja,nein,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Generator Switch Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Sherry Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil 2 (Remake),Survival Horror,Verteilerkatusche Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,mittel,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil Village,Survival Horror,Labyrinth Puzzle,ja,mittel,Verkäufliche/eintauschbare Items,ja,selten,nein,ja,gering,konstant,nein,motorik,ja,ja,ja,nein,nein
+Resident Evil Village,Survival Horror,Musik Box Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil Village,Survival Horror,Film Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil Village,Survival Horror,Schleusentor Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Resident Evil Village,Survival Horror,Piano Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill f,Survival Horror,Altar Rätsel,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill f,Survival Horror,Zahlenkombnation,einmalig,stark,"storyfortschritt, upgrades",ja,selten,nein,ja,gering,konstant,nein,"logik, motorik",ja,ja,ja,nein,nein
+Silent Hill f,Survival Horror,Geheimkiste Rätsel,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill f,Survival Horror,Waage Rätsel,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Coin Puzzle,nein,stark,"storyfortschritt, alternatives ende",ja,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Zahlenkombnation,nein,stark,storyfortschritt,nein,häufig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Armband Puzzle,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,X-Ray Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Bücher Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Generator Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Gewichte Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Galgen Puzzle,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Spiegel Rätsel,nein,mittel,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Silent Hill 2,Survival Horror,Spieluhr Rätsel,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,logik,ja,ja,ja,nein,nein
+Skyrim,"Open World, Rollenspiel, Abenteuer",Lockpicking,ja,mittel,"Verkäufliche/eintauschbare Items, spielwährung",ja,häufig,ja,nein,mittel,minispiel_schwieriger,ja,"strategie, motorik",ja,ja,nein,nein,nein
+Smash Bros Melee,Action,Break the targets,nein,leicht,keine,ja,frei,ja,nein,mittel,minispiel_schwieriger,nein,"strategie, motorik",ja,nein,ja,ja,nein
+Smash Bros Melee,Action,Grab a trophy,nein,leicht,collectibles,ja,frei,ja,nein,gering,konstant,nein,"motorik, timing",ja,ja,ja,ja,nein
+Smash Bros Melee,Action,Race to the finish,nein,keine,keine,ja,frei,ja,nein,mittel,konstant,nein,"motorik, timing",ja,ja,ja,ja,nein
+South Park: The Stick of Truth,"Rollenspiel, Abenteuer, Humor",Abortion Minigame,nein,leicht,storyfortschritt,ja,einmalig,nein,ja,gering,konstant,nein,mashing,nein,nein,ja,ja,nein
+South Park: The Stick of Truth,"Rollenspiel, Abenteuer, Humor",Pottytime,ja,leicht,Verkäufliche/eintauschbare Items,nein,häufig,ja,nein,gering,konstant,nein,mashing,ja,nein,ja,nein,nein
+South Park: The Stick of Truth,"Rollenspiel, Abenteuer, Humor","Giving Randy and ""abortion""",nein,leicht,storyfortschritt,ja,einmalig,nein,nein,mittel,konstant,nein,motorik,nein,nein,ja,nein,nein
+Super Mario 3D World,Action,Captain Toads Adventure,ja,keine,ressourcen,ja,häufig,ja,ja,mittel,minispiel_schwieriger,nein,"timing, logik",ja,ja,ja,ja,nein
+Super Mario Odyssey,Action,Balloon World,ja,leicht,spielwährung,nein,häufig,ja,nein,gering,minispiel_schwieriger,ja,motorik,ja,ja,ja,ja,nein
+Super Mario Odyssey,Action,Slots,ja,keine,Verkäufliche/eintauschbare Items,ja,selten,ja,nein,gering,konstant,ja,timing,ja_bereich,nein,ja,nein,nein
+Super Mario Odyssey,Action,Trace Challenge,ja,leicht,Verkäufliche/eintauschbare Items,ja,häufig,ja,ja,gering,minispiel_schwieriger,nein,motorik,ja_bereich,ja,ja,nein,nein
+Super Mario Odyssey,Action,Picture Match,ja,keine,Verkäufliche/eintauschbare Items,ja,selten,ja,ja,mittel,minispiel_schwieriger,nein,gedächtnis,ja_bereich,ja,ja,nein,nein
+Super Mario Odyssey,Action,Seilspringen,ja,leicht,Verkäufliche/eintauschbare Items,ja,einmalig,ja,nein,gering,konstant,nein,"timing, mashing",ja_bereich,ja,ja,nein,nein
+Super Mario Odyssey,Action,RC Car,ja,mittel,Verkäufliche/eintauschbare Items,ja,einmalig,ja,nein,mittel,konstant,nein,motorik,ja,nein,ja,ja,nein
+Super Mario Odyssey,Action,Bound Bowl Racing,ja,leicht,Verkäufliche/eintauschbare Items,ja,selten,ja,nein,mittel,konstant,nein,timing,nein,ja,ja,ja,nein
+Super Mario Odyssey,Action,Beach Volleyball,ja,leicht,Verkäufliche/eintauschbare Items,ja,einmalig,ja,nein,gering,konstant,nein,"timing, motorik",ja_bereich,nein,ja,nein,nein
+Super Mario Odyssey,Action,Koopa Freerunning,ja,leicht,Verkäufliche/eintauschbare Items,ja,häufig,ja,nein,gering,kontext_schwieriger,nein,"strategie, motorik",nein,nein,ja,ja,ja
+Super Mario Sunshine,Action,Slide Minigame,ja,keine,storyfortschritt,ja,einmalig,ja,ja,gering,konstant,nein,timing,ja,nein,ja,nein,nein
+Super Mario Sunshine,Action,Jetslide Minigame,ja,keine,storyfortschritt,ja,einmalig,ja,ja,mittel,konstant,nein,timing,ja,nein,ja,nein,ja
+Super Mario Sunshine,Action,Tall grass minigame,ja,keine,storyfortschritt,ja,einmalig,ja,ja,gering,konstant,nein,strategie,ja,nein,ja,nein,ja
+Super Mario Sunshine,Action,Pachinko minigame,ja,keine,storyfortschritt,ja,einmalig,ja,ja,gering,konstant,nein,timing,ja,nein,ja,nein,ja
+Super Mario Sunshine,Action,Lily pad Ride,ja,keine,storyfortschritt,ja,einmalig,ja,ja,mittel,konstant,nein,motorik,ja,nein,ja,nein,ja
+Super Mario Sunshine,Action,Blooper race,ja,leicht,storyfortschritt,ja,einmalig,ja,ja,mittel,konstant,nein,"strategie, timing, motorik",ja,nein,ja,ja,nein
+Super Mario 64 DS,Action,Hasen fangen,nein,keine,"Verkäufliche/eintauschbare Items",ja,häufig,ja,nein,gering,konstant,nein,"motorik, timing",ja,nein,nein,nein,ja
+The Order: 1886,Action-Adventure,Lockpicking,nein,mittel,storyfortschritt,nein,selten,nein,ja,gering,konstant,nein,"motorik, timing",ja,ja,nein,nein,nein
+The Order: 1886,Action-Adventure,Umkehrer/Gleichrichter TS-27,nein,mittel,storyfortschritt,nein,häufig,nein,ja,gering,konstant,nein,"motorik, timing",ja,ja,nein,nein,nein
+The Order: 1886,Action-Adventure,Morse Code,nein,stark,storyfortschritt,nein,einmalig,nein,ja,gering,konstant,nein,"motorik, timing",nein,ja,ja,nein,nein
+The Witcher 2,"Rollenspiel, Fantasy",Am Wrestling,ja,leicht,spielwährung,ja,häufig,ja,nein,gering,minispiel_situativ,ja,timing,nein,ja,ja,nein,nein
+The Witcher 2,"Rollenspiel, Fantasy",Fistfights,ja,leicht,spielwährung,ja,häufig,ja,nein,gering,minispiel_situativ,ja,timing,nein,ja,ja,nein,nein
+The Witcher 2,"Rollenspiel, Fantasy",Dice,ja,stark,spielwährung,ja,häufig,ja,nein,gering,konstant,ja,glück,nein,ja,ja,nein,nein
+The Witcher 3,Action-Adventure,Gwint,ja,stark,"xp, spielwährung",ja,häufig,ja,ja,hoch,konstant,ja,strategie,ja,ja,ja,nein,nein
+The Witcher 3,Action-Adventure,Pferderennen,einmalig,leicht,"xp, spielwährung, Verkäufliche/eintauschbare Items",ja,häufig,nein,ja,gering,konstant,ja,strategie,ja_bereich,ja,ja,nein,nein
+The Witcher 3,Action-Adventure,Faustkampf,ja,leicht,"xp, spielwährung, Verkäufliche/eintauschbare Items",ja,häufig,nein,ja,gering,konstant,ja,"strategie, motorik",nein,ja,ja,nein,nein
+TLOZ A Link Between Worlds,Action,Cucco Ranch,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,motorik,nein,ja,ja,ja,nein
+TLOZ A Link Between Worlds,Action,Fortune's Choice,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,glück,nein,ja,ja,nein,nein
+TLOZ A Link Between Worlds,Action,Hyrule Hotfoot,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,strategie,nein,ja,nein,ja,nein
+TLOZ A Link Between Worlds,Action,Rupee rush,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,ja,"timing, strategie",nein,ja,ja,ja,nein
+TLOZ A Link Between Worlds,Action,Treacherous Tower,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,hoch,minispiel_schwieriger,ja,"motorik, strategie, wissen",nein,nein,nein,nein,nein
+TLOZ Breath of the Wild,Action,Bird-Man Reasearch Study,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,nein,ja,gering,konstant,ja,motorik,nein,nein,ja,nein,nein
+TLOZ Breath of the Wild,Action,Shield Surfing,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,motorik,nein,nein,ja,ja,nein
+TLOZ Breath of the Wild,Action,Boom Boomb Golf,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"strategie, mashing",nein,ja,ja,nein,nein
+TLOZ Breath of the Wild,Action,Flight Range,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,nein,"motorik, präzision",nein,ja,ja,ja,nein
+TLOZ Breath of the Wild,Action,Snowball Bowling,ja,keine,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"präzision, motorik",nein,ja,ja,nein,nein
+TLOZ Breath of the Wild,Action,Test Of Wood,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,strategie,nein,nein,ja,ja,nein
+TLOZ Breath of the Wild,Action,Super Gut Check,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,"motorik, strategie",ja,nein,ja,ja,nein
+TLOZ Breath of the Wild,Action,Blaue Flamme,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"motorik, strategie",nein,nein,nein,ja,nein
+TLOZ Breath of the Wild,Action,Foot Race,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,strategie,nein,nein,nein,ja,nein
+TLOZ Breath of the Wild,Action,Sand - Sally Rally,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,motorik,nein,ja,ja,ja,nein
+TLOZ Breath of the Wild,Action,Mounted Archery,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,ja,"motorik, timing, präzision",nein,ja,ja,ja,n
+TLOZ Breath of the Wild,Action,Deer Hunting,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,nein,motorik,nein,ja,ja,ja,nein
+TLOZ Breath of the Wild,Action,Paraglider Course,ja,leicht,"spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,motorik,nein,ja,ja,nein,nein
+TLOZ Majora’s Mask,Action,Schießbuden Sumpf,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,"timing, motorik",nein,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Schießbude Unruhstadt,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,"timing, motorik",ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Deku Hüpf Spiel,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,kontext_situativ,ja,"motorik, strategie",ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Koumes Bootsfahrt,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,mittel,konstant,ja,"timing, motorik",ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Dojo des schwertmeisters,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,strategie,ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Krabbelminen schießbude,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,hoch,minispiel_schwieriger,ja,"timing, motorik, strategie",ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Zu Schatzkiste,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,mittel,konstant,ja,logik,ja,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Gorman Rennen,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,"timing, logik",nein,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Goronen Rennen,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,"motorik, strategie",nein,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,biberennen,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,mittel,minispiel_schwieriger,nein,"strategie, motorik",nein,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Fackelspiel,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,"timing, strategie",nein,ja,ja,ja,nein
+TLOZ Majora’s Mask,Action,Hunderennen,ja,stark,"Verkäufliche/eintauschbare Items, spielwährung",ja,einmalig,ja,nein,mittel,konstant,ja,"logik, strategie",nein,ja,ja,ja,nein
+TLOZ Minish Cap,Action,Simons Simulations,ja,keine,ressourcen,ja,einmalig,ja,nein,mittel,konstant,ja,motorik,nein,ja,ja,nein,nein
+TLOZ Minish Cap,Action,Treasure Chest Game,ja,keine,spielwährung,ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,glück,nein,ja,ja,nein,nein
+TLOZ Minish Cap,Action,Cucco Wrangling,ja,leicht,spielwährung,ja,einmalig,ja,nein,hoch,minispiel_schwieriger,nein,"motorik, strategie",nein,ja,ja,ja,ja
+TLOZ: Ocarina of Time,Action,Shooting gallery(slingshot),ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"motorik, timing",nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Shooting gallery(fairy bow)),ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"motorik, timing",nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Super Cucco,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,strategie,nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Skull Kid Jam Session,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,nein,"timing, gedächtnis",nein,ja,ja,nein,nein
+TLOZ: Ocarina of Time,Action,Bowling Alley,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,ja,timing,ja_bereich,ja,ja,nein,nein
+TLOZ: Ocarina of Time,Action,Zora Diving Game,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,ja,motorik,nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Fishing Pond,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"logik, mashing",ja_bereich,nein,ja,nein,nein
+TLOZ: Ocarina of Time,Action,Ingo Race,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"mashing, strategie",nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Epona race,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,nein,"mashing, strategie",nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Dampes Race,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,nein,nein,gering,konstant,nein,motorik,nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Treasure Box,ja,keine,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,glück,ja_bereich,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Horseback archery,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"motorik, präzision",nein,ja,ja,ja,nein
+TLOZ: Ocarina of Time,Action,Commemoratorive Race,ja,leicht,"Verkäufliche/eintauschbare Items, spielwährung, Verkäufliche/eintauschbare Items",nein,einmalig,ja,nein,gering,konstant,nein,"strategie, mashing",nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Bird Man Flight Research,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,motorik,nein,ja,ja,nein,nein
+TLOZ Tears of the Kingdom,Action,Collect The Sand-Seal,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,selten,nein,nein,gering,minispiel_schwieriger,ja,logik,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Test Of Strength,ja,keine,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,ja,strategie,nein,ja,ja,nein,nein
+TLOZ Tears of the Kingdom,Action,Desert Race,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,strategie,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Dive Ceremony,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,selten,ja,nein,gering,minispiel_schwieriger,nein,motorik,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Flight Training,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,motorik,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Horse Race,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"motorik, strategie",nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Lurelin Water Rally,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,nein,"motorik, logik, strategie",nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Mine-Cart Land,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,minispiel_schwieriger,ja,"motorik, strategie",nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Rito Warrior Training,ja,keine,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,"strategie, motorik",nein,ja,ja,nein,nein
+TLOZ Tears of the Kingdom,Action,Selmies Shield Surfing,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,motorik,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Tarrey Town Race Project,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,mittel,konstant,nein,"strategie, logik",nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Yiga Training,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,ja,ja,ja,nein
+TLOZ Tears of the Kingdom,Action,Treasure Chest Game,ja,keine,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,glück,ja_bereich,nein,ja,nein,nein
+TLOZ Tears of the Kingdom,Action,Ultra Baul Haul,ja,leicht,"spielwährung,  Verkäufliche/eintauschbare Items",ja,einmalig,ja,nein,gering,konstant,ja,strategie,nein,ja,ja,ja,nein
+TLOZ The Wind Waker,Action,Schiffe versenken,ja,stark,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,hoch,konstant,ja,strategie,nein,ja,ja,nein,nein
+TLOZ The Wind Waker,Action,Schweinefangen,ja,keine,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,nein,nein,gering,konstant,nein,"strategie, motorik",nein,nein,ja,ja,nein
+TLOZ The Wind Waker,Action,Vogelmann-Weiistreit,ja,keine,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,mittel,konstant,nein,"timing, motorik",nein,nein,ja,nein,nein
+TLOZ The Wind Waker,Action,Schieberätsel,ja,stark,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,mittel,konstant,nein,"logik, strategie",nein,ja,ja,nein,nein
+TLOZ The Wind Waker,Action,Postsendungen sortieren,ja,mittel,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,mittel,konstant,nein,"timing, motorik",nein,ja,ja,ja,nein
+TLOZ The Wind Waker,Action,Auktion,ja,mittel,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,gering,konstant,ja,"strategie, motorik",ja,ja,ja,nein,nein
+TLOZ The Wind Waker,Action,Kanonenspiel,ja,mittel,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,mittel,konstant,ja,"strategie, logik, motorik",nein,ja,ja,nein,nein
+TLOZ The Wind Waker,Action,Schwertraining,nein,keine,"Verkäufliche/eintauschbare Items,  spielwährung",ja,einmalig,ja,nein,gering,konstant,nein,motorik,nein,nein,ja,nein,nein
+Watch_Dogs,"Action, Open World",Hütchenspiel,ja,leicht,xp,nein,häufig,ja,ja,gering,minispiel_schwieriger,ja,aufmerksamkeit,nein,nein,nein,nein,ja
+Watch_Dogs,"Action, Open World",Trinkspiel,einmalig,mittel,"storyfortschritt, Verkäufliche/eintauschbare Items",ja,selten,ja,ja,mittel,minispiel_schwieriger,ja,"präzision, timing",nein,nein,nein,nein,ja
+Watch_Dogs,"Action, Open World",Schach,ja,mittel,skillpoints,ja,häufig,ja,ja,mittel,minispiel_schwieriger,nein,strategie,nein,nein,nein,nein,nein
+Watch_Dogs,"Action, Open World",Poker,einmalig,stark,"storyfortschritt, spielwährung",ja,selten,ja,ja,hoch,konstant,ja,"strategie, geschicklichkeit",nein,nein,nein,nein,ja
+Watch_Dogs,"Action, Open World",Spielautomat,ja,leicht,spielwährung,ja,selten,ja,ja,gering,konstant,ja,glück,nein,nein,nein,nein,nein
+Watch_Dogs,"Action, Open World",NVZN Shooter,ja,mittel,skillpoints,ja,häufig,ja,ja,gering,minispiel_schwieriger,nein,"präzision, geschicklichkeit",ja_bereich,ja,nein,ja,ja
+Watch_Dogs,"Action, Open World",Cash Run,ja,mittel,Verkäufliche/eintauschbare Items,ja,häufig,ja,ja,gering,konstant,nein,"präzision, geschicklichkeit",ja,ja,nein,ja,nein
+Watch_Dogs,"Action, Open World",Madness,ja,mittel,skillpoints,nein,häufig,ja,ja,gering,minispiel_leichter,nein,"präzision, geschicklichkeit",nein,ja,nein,ja,nein
+Watch_Dogs,"Action, Open World",Spider-Tank,ja,mittel,skillpoints,nein,häufig,ja,ja,mittel,minispiel_leichter,nein,"präzision, geschicklichkeit",nein,ja,nein,ja,nein
+Watch_Dogs,"Action, Open World",Psychedelic,ja,leicht,keine,nein,häufig,ja,ja,gering,minispiel_leichter,nein,"präzision, geschicklichkeit",nein,ja,nein,nein,nein
+Watch_Dogs,"Action, Open World",Alone,ja,leicht,skillpoints,nein,häufig,nein,ja,mittel,minispiel_leichter,nein,"präzision, geschicklichkeit",nein,ja,nein,nein,nein
+Watch_Dogs 2,"Action, Open World",Node Puzzle (3D),nein,mittel,"storyfortschritt, skillpoints",ja,häufig,nein,ja,mittel,minispiel_schwieriger,nein,"logik, strategie",nein,nein,nein,nein,nein
