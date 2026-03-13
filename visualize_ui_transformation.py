@@ -24,17 +24,19 @@ ui_counts['UI - Transformation'] = ui_counts['UI - Transformation'].replace({
     'mittel': 'Mittel',
     'stark': 'Stark'
 })
-ui_counts.columns = ['UI - Transformation', 'Anteil']
+ui_counts.columns = ['UI - Transformation', 'Anzahl']
 
 # Plot: Verteilung der UI-Transformation (Pie Chart)
 fig_ui_count = px.pie(
     ui_counts,
-    values='Anteil',
+    values='Anzahl',
     names='UI - Transformation',
     title='Verteilung der UI-Transformation',
     color='UI - Transformation',
     color_discrete_map={'Keine': '#87CEFA', 'Leicht': '#FFD700', 'Mittel': '#FF6A6A', 'Stark': '#8B4513'}
 )
+
+fig_ui_count.update_traces(textinfo='percent+value')
 
 fig_ui_count.update_layout(
     font=dict(size=25), 

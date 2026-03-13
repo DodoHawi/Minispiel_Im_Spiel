@@ -1,10 +1,6 @@
-import ast
-from matplotlib.pyplot import title
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
-from sklearn.preprocessing import MultiLabelBinarizer  
+
 
 # ---------------------------------------------------------------------------------------------------
 # --- Optionalität ---
@@ -16,7 +12,7 @@ df_opt.columns = df_opt.columns.str.strip()
 
 # Absolute Anzahl Optionalität insgesamt
 opt_counts = df_opt['Optionalität'].value_counts().reindex(['ja','nein', 'einmalig']).reset_index()
-opt_counts.columns = ['Optionalität', 'Anteil']
+opt_counts.columns = ['Optionalität', 'Anzahl']
 
 # Rename legend values
 opt_counts['Optionalität'] = opt_counts['Optionalität'].replace({
@@ -28,12 +24,14 @@ opt_counts['Optionalität'] = opt_counts['Optionalität'].replace({
 # Plot: Verteilung der Optionalität (Pie Chart)
 fig_opt_count = px.pie(
     opt_counts,
-    values='Anteil',
+    values='Anzahl',
     names='Optionalität',
     title='Verteilung der Optionalität',
     color='Optionalität',
     color_discrete_map={'Ja': '#87CEFA', 'Einmalig': '#FFD700', 'Nein': '#FF6A6A'}
 )
+
+fig_opt_count.update_traces(textinfo='percent+value')
 
 fig_opt_count.update_layout(
     font=dict(size=25), 
@@ -49,7 +47,7 @@ fig_opt_count.show()
 # Anzahl pro Genre × Optionalität
 opt_by_genre = (
     df_opt
-    .groupby(["Genre", "Optional"])
+    .groupby(["Genre", "Optionalität"])
     .size()
     .reset_index(name="count")
 )
@@ -65,10 +63,10 @@ fig_opt_genre = px.bar(
     opt_by_genre,
     x="Genre",
     y="Anteil",
-    color="Optional",
+    color="Optionalität",
     title="Optionalität der Minispiele nach Genre",
     category_orders={
-        "Optional": ["Ja", "Einmalig", "Nein"]
+        "Optionalität": ["Ja", "Einmalig", "Nein"]
     },
     color_discrete_map={
         "Ja": "#87CEFA",

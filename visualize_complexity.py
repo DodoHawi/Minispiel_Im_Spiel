@@ -1,10 +1,6 @@
-import ast
-from matplotlib.pyplot import title
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
-from sklearn.preprocessing import MultiLabelBinarizer  
+
 
 # --- Komplexität-Plot ---
 # Neue CSV einlesen
@@ -15,23 +11,30 @@ df_komp.columns = df_komp.columns.str.strip()
 
 # Absolute Anzahl jeder Komplexität insgesamt
 komp_counts = df_komp['Komplexität'].value_counts().reindex(['hoch', 'mittel', 'gering']).reset_index()
-komp_counts.columns = ['Komplexität', 'Anteil']
+komp_counts['Komplexität'] = komp_counts['Komplexität'].replace(
+    {'hoch': 'Hoch', 'mittel': 'Mittel', 'gering': 'Gering'})
+komp_counts.columns = ['Komplexität', 'Anzahl']
 
 # Plot: Verteilung der Komplexität (Pie Chart)
 fig_komp_count = px.pie(
     komp_counts,
-    values='Anteil',
+    values='Anzahl',
     names='Komplexität',
     title='Verteilung der Komplexität-Level',
     color='Komplexität',
-    color_discrete_map={'gering': '#87CEFA', 'mittel': '#FFD700', 'hoch': '#FF6A6A'}
+    color_discrete_map={'Gering': '#87CEFA', 'Mittel': '#FFD700', 'Hoch': '#FF6A6A'}
 )
+
+fig_komp_count.update_traces(textinfo='percent+value')
+
 fig_komp_count.update_layout(
     font=dict(size=25), 
     legend=dict(
         title=dict(text = "Komplexität")))
 
-#fig_komp_count.show()
+
+
+fig_komp_count.show()
 
 #----------------------------------------------------------------------------------------------------
 # Komplexität nach Genre: Gruppieren und Plotten
@@ -86,4 +89,4 @@ fig_komp_genre.update_layout(
     font=dict(size=22)
 )
 
-fig_komp_genre.show()
+#fig_komp_genre.show()

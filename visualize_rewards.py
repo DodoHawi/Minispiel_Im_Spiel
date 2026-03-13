@@ -1,7 +1,5 @@
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
 from sklearn.preprocessing import MultiLabelBinarizer  
 
 # ---------------------------------------------------------------------------------------------------
@@ -30,19 +28,39 @@ df_belohnung = pd.concat([df_bel, belohnung_dummies], axis=1)
 # -> Für jede Belohnung eine Spalte mit 1/0 ob vorhanden oder nicht
 
 belohnung_count = belohnung_dummies.sum().sort_values(ascending=False)
-belohnung_share = belohnung_dummies.mean().sort_values(ascending=False)
+
+oek = ["Spielwährung", "Verkäufliche/Eintauschbare Items", "Ressourcen"]
+
+belohnung_df = belohnung_count.reset_index()
+belohnung_df.columns = ["Belohnung", "Anzahl"]
+
+belohnung_df["Kategorie"] = belohnung_df["Belohnung"].apply(lambda x: "Ökonomische Belohnung" if x in oek else "Nicht ökonomische Belohnung")
+
+total_minigames = len(df_bel)
+belohnung_df["Prozent"] = belohnung_df["Anzahl"] / total_minigames
+belohnung_df["Label"] = (
+    belohnung_df["Anzahl"].astype(str)
+    + " (" +
+    (belohnung_df["Prozent"]*100).round(1).astype(str)
+    + "%)"
+)
 
 fig_belohnung = px.bar(
-    belohnung_share,
-    x=belohnung_share.values,
-    y=belohnung_share.index,
+    belohnung_df,
+    x="Anzahl",
+    y="Belohnung",
     orientation='h',
+    color = "Kategorie",
+    text = "Label",
     title='Häufigkeit der Belohnungen in Minispielen',
-    labels={'x': 'Anteil', 'y': 'Belohnungstyp'},
-    color_discrete_sequence=['#87CEFA']
+    labels={'x': 'Anzahl', 'y': 'Belohnungstyp'},
+    color_discrete_map={
+        "Ökonomische Belohnung": "#87CEFA",
+        "Nicht ökonomische Belohnung": "#FF6A6A"
+    }
 )   
 
-#fig_belohnung.update_layout(font=dict(size=25))
+fig_belohnung.update_layout(font=dict(size=20))
 
 fig_belohnung.show()
 

@@ -20,7 +20,7 @@ df_ver.columns = df_ver.columns.str.strip()
 ver_counts = df_ver['Veränderung der Schwierigkeit'].value_counts().reindex(['konstant', 
     'minispiel_leichter', 'minispiel_schwieriger', 'kontext_leichter', 'kontext_schwieriger', 
     'kontext_situativ']).reset_index()
-ver_counts.columns = ['Veränderung der Schwierigkeit', 'Anteil']
+ver_counts.columns = ['Veränderung der Schwierigkeit', 'Anzahl']
 
 # Rename legend values
 ver_counts['Veränderung der Schwierigkeit'] = ver_counts['Veränderung der Schwierigkeit'].replace({
@@ -35,7 +35,7 @@ ver_counts['Veränderung der Schwierigkeit'] = ver_counts['Veränderung der Schw
 # Plot: Verteilung der Veränderung der Schwierigkeit (Pie Chart)
 fig_ver_count = px.pie(
     ver_counts,
-    values='Anteil',
+    values='Anzahl',
     names='Veränderung der Schwierigkeit',
     title='Verteilung der Veränderung der Schwierigkeit',
     color='Veränderung der Schwierigkeit',
@@ -44,6 +44,8 @@ fig_ver_count = px.pie(
     'Minispiel: Schwieriger': "#8EFF0E",
     'Kontext: Situativ': '#FF00F7'}
 )
+
+fig_ver_count.update_traces(textinfo='percent+value')
 
 fig_ver_count.update_layout(
     font=dict(size=25), 

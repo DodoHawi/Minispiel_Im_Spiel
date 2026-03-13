@@ -1,10 +1,7 @@
-import ast
-from matplotlib.pyplot import title
+
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
-from sklearn.preprocessing import MultiLabelBinarizer  
+
 
 
 df = pd.read_csv('codebook_database - database.csv', sep=',')
@@ -29,81 +26,106 @@ df_long = df_bin.melt(
 )
 
 # Anteil "Ja" pro Feature berechnen
+#feature_summary = (
+#    df_long.groupby("feature")["present"]
+#    .mean()
+#    .reset_index()
+#.rename(columns={"present": "Anteil_Ja", "feature": "Kategorie"})
+#)
+
+# Absolute Zahlen pro Feature berechnen
 feature_summary = (
     df_long.groupby("feature")["present"]
-    .mean()
+    .agg(
+        Ja="sum",   #Anzahl "Ja"
+        Gesamt="count" #Gesamtanzahl
+    )
     .reset_index()
-.rename(columns={"present": "Anteil_Ja", "feature": "Kategorie"})
+    .rename(columns={"feature": "Kategorie"})
 )
 
 # Ergänzen des Anteils "Nein"
-feature_summary["Anteil_Nein"] = 1 - feature_summary["Anteil_Ja"]
+#feature_summary["Anteil_Nein"] = 1 - feature_summary["Anteil_Ja"]
+
+# Ergänzen des absoluten Anteils "Nein"
+feature_summary["Nein"] = feature_summary["Gesamt"] - feature_summary["Ja"]
+feature_summary["Ja_pct"] = (feature_summary["Ja"] / feature_summary["Gesamt"]).round(2)
+feature_summary["Nein_pct"] = (feature_summary["Nein"] / feature_summary["Gesamt"]).round(2)
+
 
 # Reshape für Plotting
+#feature_summary_melted = feature_summary.melt(
+#    id_vars=["Kategorie"],
+#    value_vars=["Anteil_Ja", "Anteil_Nein"],
+#    var_name="Ergebnis",
+#    value_name="Anteil"
+#)
+
 feature_summary_melted = feature_summary.melt(
-    id_vars=["Kategorie"],
-    value_vars=["Anteil_Ja", "Anteil_Nein"],
+    id_vars=["Kategorie", "Gesamt"],
+    value_vars=["Ja", "Nein"],
     var_name="Ergebnis",
-    value_name="Anteil"
+    value_name="Anzahl"
 )
+
+feature_summary_melted["Prozent"] = feature_summary_melted.apply(
+    lambda row: row["Anzahl"] / row["Gesamt"],
+    axis=1
+)
+
+feature_summary_melted["Label"] = (
+    feature_summary_melted["Anzahl"].astype(str)
+    + " ("
+    + (feature_summary_melted["Prozent"] * 100).round(1).astype(str)
+    + "%)"
+)
+
+#feature_summary_melted["Anteil"] = feature_summary_melted["Anteil"].round(2)
 
 # Vergleich nach Genre
 genre_share = (
     df_long.groupby(["Genre", "feature"])["present"]
     .mean()
-    .reset_index(name="Anteil")
+    .reset_index(name="Anzahl")
 )
-
-#Vergleich nach Jahr
-#year_share = (
-#    df_long.groupby(["Jahr", "feature"])["present"]
-#    .mean()
-#    .reset_index(name="Anteil")
-#)
 
 # Plot der Ergebnisse
 fig1 = px.bar(
     feature_summary_melted,
-    x="Anteil",
+    x="Anzahl",
     y="Kategorie",
+    text="Label",
     color="Ergebnis",
     orientation='h',
     title="Ergebnis pro Kategorie",
-    labels={"Anteil": "Anteil", "Kategorie": "Kategorie", "Ergebnis": "Ergebnis"},
-    color_discrete_map={"Anteil_Ja": "#87CEFA", "Anteil_Nein": "#FF6A6A"}
+    labels={"Anzahl": "Anzahl", "Kategorie": "Kategorie", "Ergebnis": "Ergebnis"},
+    color_discrete_map={"Ja": "#87CEFA", "Nein": "#FF6A6A"}
 )
+
+#fig1.update_layout(
+#    font=dict(size=20))
+
 
 fig2 = px.bar(
     genre_share,
-    x="Anteil",
+    x="Anzahl",
     y="feature",
     color="Genre",
     orientation='h',
     barmode='group',
-    title="Anteil 'Ja' pro Kategorie und Genre",
+    title="Anzahl 'Ja' pro Kategorie und Genre",
 )
 
 fig3 = px.bar(
     genre_share,
     x="Genre",
-    y="Anteil", 
+    y="Anzahl", 
     facet_col="feature",
     facet_col_wrap=3,
-    labels={"Anteil": "Anteil 'Ja'", "Genre": "Genre", "feature": "Kategorie"},
-    title="Anteil 'Ja' pro Kategorie und Genre"
+    labels={"Anzahl": "Anzahl 'Ja'", "Genre": "Genre", "feature": "Kategorie"},
+    title="Anzahl 'Ja' pro Kategorie und Genre"
 )
 
-#fig_year = px.line(
-#    year_share,
-#    x="Jahr",
-#    y="Anteil", 
-#    facet_col="feature",
-#    facet_col_wrap=2,
-#    labels={"Anteil": "Anteil 'Ja'", "Jahr": "Jahr", "feature": "Kategorie"},
-#    title="Anteil 'Ja' pro Kategorie und Jahr"
-#)
-
 fig1.show()
-fig2.show()
-fig3.show()
-#fig_year.show()
+#fig2.show()
+#fig3.show()
