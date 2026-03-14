@@ -1,10 +1,5 @@
-import ast
-from matplotlib.pyplot import title
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
-from sklearn.preprocessing import MultiLabelBinarizer  
 
 # ---------------------------------------------------------------------------------------------------
 # --- Auftreten-Plot ---
@@ -44,48 +39,3 @@ fig_auf_count.update_layout(
         title=dict(text = "Auftreten")))
 
 fig_auf_count.show()
-
-#----------------------------------------------------------------------------------------------------
-# Auftreten nach Genre
-# ----------------------------------------------------------------------------------------------------
-
-# Anzahl pro Genre × Auftreten
-auf_by_genre = (
-    df_auf
-    .groupby(["Genre", "Auftreten"])
-    .size()
-    .reset_index(name="count")
-)
-
-# Anteile innerhalb jedes Genres
-auf_by_genre["Anteil"] = (
-    auf_by_genre["count"]
-    / auf_by_genre.groupby("Genre")["count"].transform("sum")
-)
-
-
-fig_auf_genre = px.bar(
-    auf_by_genre,
-    x="Genre",
-    y="Anteil",
-    color="Auftreten",
-    title="Auftreten der Minispiele nach Genre",
-    category_orders={
-        "Auftreten": ["Frei", "Einmalig", "Selten", "Häufig"]
-    },
-    color_discrete_map={
-        "Frei": "#87CEFA",
-        "Einmalig": "#FFD700",
-        "Selten": "#FF6A6A",
-        "Häufig": "#8B4513"
-    }
-)
-
-fig_auf_genre.update_yaxes(tickformat=".0%")
-fig_auf_genre.update_xaxes(tickangle=45)
-fig_auf_genre.update_layout(
-    legend_title_text="Auftreten",
-    font=dict(size=22)
-)
-
-#fig_auf_genre.show()

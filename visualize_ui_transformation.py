@@ -1,10 +1,5 @@
-from matplotlib.pyplot import title
 import pandas as pd
 import plotly.express as px
-import numpy as np
-from plotly.subplots import make_subplots   
-from sklearn.preprocessing import MultiLabelBinarizer  
-
 
 # ---------------------------------------------------------------------------------------------------
 # --- UI-Transformation-Plot ---
@@ -44,48 +39,3 @@ fig_ui_count.update_layout(
         title=dict(text = "UI-Transformationsgrad")))
 
 fig_ui_count.show()
-
-#----------------------------------------------------------------------------------------------------
-# UI-Transformation nach Genre: Gruppieren und Plotten
-# ----------------------------------------------------------------------------------------------------
-
-# Anzahl pro Genre × Komplexität
-ui_by_genre = (
-    df_ui
-    .groupby(["Genre", "UI-Transformation"])
-    .size()
-    .reset_index(name="count")
-)
-
-# Anteile innerhalb jedes Genres
-ui_by_genre["Anteil"] = (
-    ui_by_genre["count"]
-    / ui_by_genre.groupby("Genre")["count"].transform("sum")
-)
-
-
-fig_ui_genre = px.bar(
-    ui_by_genre,
-    x="Genre",
-    y="Anteil",
-    color="UI-Transformation",
-    title="UI-Transformation der Minispiele nach Genre",
-    category_orders={
-        "UI-Transformation": ["Keine", "Leicht", "Mittel", "Stark"]
-    },
-    color_discrete_map={
-        "Keine": "#87CEFA",
-        "Leicht": "#FFD700",
-        "Mittel": "#FF6A6A",
-        "Stark": "#8B4513"
-    }
-)
-
-fig_ui_genre.update_yaxes(tickformat=".0%")
-fig_ui_genre.update_xaxes(tickangle=45)
-fig_ui_genre.update_layout(
-    legend_title_text="UI-Transformation",
-    font=dict(size=22)
-)
-
-#fig_ui_genre.show()
